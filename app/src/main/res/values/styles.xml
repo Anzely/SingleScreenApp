@@ -1,0 +1,52 @@
+<resources>
+
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Portrait Image-->
+    <style name="ImageMain">
+        <item name="android:layout_height">@dimen/ImagePortraitWidth</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:src">@drawable/foto</item>
+    </style>
+    <!-- Landscape Image-->
+    <style name="ImageMainLand" parent="ImageMain">
+        <item name="android:layout_height">@dimen/ImageLandscapeWidth</item>
+    </style>
+
+    <style name="CompanyName">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/textSizeCompanyName</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+    <style name="TextOpening">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/TextColor</item>
+        <item name="android:textSize">@dimen/textSizeOpeningHours</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="Icon">
+        <item name="android:layout_width">@dimen/IconWidth</item>
+        <item name="android:layout_height">@dimen/IconHeight</item>
+        <item name="android:layout_marginLeft">@dimen/IconMarginLeft</item>
+        <item name="android:layout_marginBottom">@dimen/IconMarginBotton</item>
+        <item name="android:scaleType">fitCenter</item>
+    </style>
+
+    <style name="IconDate">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/IconTextPadding</item>
+        <item name="android:textSize">@dimen/TextSize1</item>
+    </style>
+
+
+</resources>

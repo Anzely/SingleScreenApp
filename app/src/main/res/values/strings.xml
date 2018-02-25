@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SingleScreenApp</string>
+    <string name="campanyTelephone">+43 6 77 44 44 44</string>
+    <string name="email">hair.beautiful@gmail.com</string>
+    <string name="adress">Mozartstraße 300. 4020 Linz</string>
+    <string name="openingHours">Mon to Fri: 7am - 8pm Sat: 9am - 6.30pm</string>
+    <string name="companyName">Beautiful Hair</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeCompanyName">30sp</dimen>
+    <dimen name="textSizeOpeningHours">15sp</dimen>
+    <dimen name="ImagePortraitWidth">250dp</dimen>
+    <dimen name="ImageLandscapeWidth">130dp</dimen>
+    <dimen name="TextSize1">15sp</dimen>
+    <dimen name="TextMargintLeft">15dp</dimen>
+    <dimen name="TextMargintBotton">10dp</dimen>
+
+    <dimen name="IconWidth">40dp</dimen>
+    <dimen name="IconHeight">40dp</dimen>
+
+    <dimen name="IconMarginLeft">10dp</dimen>
+    <dimen name="IconMarginBotton">5dp</dimen>
+    <dimen name="IconTextPadding">10dp</dimen>
+    <dimen name="TextMargintTop">10dp</dimen>
+
+</resources>

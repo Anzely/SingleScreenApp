@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.edit.singlescreenapp.MainActivity"
+    android:background="@color/background">
+
+<RelativeLayout android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/Image"
+        style="@style/ImageMain" />
+
+
+
+            <TextView
+                android:id="@+id/TextSalonName"
+                android:text="@string/companyName"
+                android:layout_marginLeft="@dimen/TextMargintLeft"
+                style="@style/CompanyName"
+                android:layout_below="@+id/Image"
+               />
+            <TextView
+                android:id="@+id/TextOpening"
+                android:layout_marginLeft="@dimen/TextMargintLeft"
+                android:layout_marginBottom="@dimen/TextMargintBotton"
+                android:text="@string/openingHours"
+                style="@style/TextOpening"
+                android:layout_below="@+id/TextSalonName"
+                 />
+
+
+            <ImageView
+                android:id="@+id/ImageMap"
+                android:layout_below="@id/TextOpening"
+                android:src="@drawable/map2"
+                style="@style/Icon"
+            />
+
+            <TextView
+                android:id="@+id/TextAdress"
+                android:layout_below="@+id/TextOpening"
+                android:layout_toEndOf="@id/ImageMap"
+                android:layout_toRightOf="@id/ImageMap"
+                android:text="@string/adress"
+               style="@style/IconDate" />
+
+            <ImageView
+                android:id="@+id/ImagePhone"
+                android:onClick="onClick"
+                android:src="@drawable/phone2"
+                android:layout_below="@id/ImageMap"
+               style="@style/Icon"
+                />
+
+            <TextView
+                android:id="@+id/TextPhone"
+                android:text="@string/campanyTelephone"
+                android:onClick="onClick"
+                android:layout_below="@id/TextAdress"
+                android:layout_toRightOf="@id/ImagePhone"
+                android:layout_toEndOf="@id/ImagePhone"
+                style="@style/IconDate" />
+
+            <ImageView
+                android:id="@+id/ImageMail"
+                android:layout_below="@+id/ImagePhone"
+                android:onClick="onClick"
+                android:src="@drawable/mail2"
+                style="@style/Icon" />
+
+            <TextView
+                android:id="@+id/TextMail"
+                android:layout_below="@id/TextPhone"
+                android:layout_toRightOf="@id/ImageMail"
+                android:layout_toEndOf="@id/ImageMail"
+                android:onClick="onClick"
+                android:text="@string/email"
+                android:layout_marginTop="@dimen/TextMargintTop"
+               style="@style/IconDate"/>
+   </RelativeLayout>
+
+</ScrollView>
